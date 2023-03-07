@@ -14,12 +14,13 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { TotalAfterTaxComponent } from './total-after-tax/total-after-tax.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PizzaToppingsComponent
-    , TjsMultiplicationComponent
+    , TjsMultiplicationComponent, TotalAfterTaxComponent
   ],
   imports: [
     BrowserModule
