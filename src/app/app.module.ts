@@ -11,12 +11,21 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AstLoadingComponent } from './ast-loading/ast-loading.component';
+import { SwTeamCheckComponent } from './sw-team-check/sw-team-check.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
+
+import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PizzaToppingsComponent,
-    AstLoadingComponent
+    AstLoadingComponent,
+    TjsMultiplicationComponent,
+    SwTeamCheckComponent
+
   ],
   imports: [
     BrowserModule
@@ -25,6 +34,8 @@ import { AstLoadingComponent } from './ast-loading/ast-loading.component';
     , MatCardModule
     , MatButtonModule
     , MatCheckboxModule
+    , MatInputModule
+    , MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
