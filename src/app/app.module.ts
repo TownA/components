@@ -14,9 +14,14 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { MackAlbumListComponent } from './mack-album-list/mack-album-list.component';
 import { SwTeamCheckComponent } from './sw-team-check/sw-team-check.component';
+
+
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { TotalAfterTaxComponent } from './total-after-tax/total-after-tax.component';
+
+
 
 @NgModule({
   declarations: [
@@ -25,7 +30,8 @@ import { MatInputModule } from '@angular/material/input';
     SpeedComponent,
     TjsMultiplicationComponent,
     SwTeamCheckComponent,
-    MackAlbumListComponent
+    MackAlbumListComponent,
+    TotalAfterTaxComponent
   ],
   imports: [
     BrowserModule
