@@ -1,0 +1,37 @@
+<mat-card>
+    <mat-card-title>
+        Austin's Leave a comment section!
+    </mat-card-title>
+    <mat-card-content>
+        <mat-form-field>
+            <mat-label>
+                Leave your email!
+            </mat-label>
+            <input
+            matInput
+            type="email"
+            />
+        </mat-form-field>
+        &nbsp;
+        <mat-form-field>
+            <mat-label>
+                Leave a comment!
+            </mat-label>
+            <input
+            matInput
+            type="text"
+            />
+        </mat-form-field>
+        <br>
+        <button
+            mat-raised-button
+            color="primary"
+            (click)="commentsSubmitted()"
+        >
+            Submit Comments!
+        </button>
+        <br>
+        <br>
+        {{ comments }}
+    </mat-card-content>
+</mat-card>
